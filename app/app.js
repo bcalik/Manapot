@@ -4,6 +4,7 @@ var Tray = require('tray');
 var spawn = require('child_process').spawn;
 var child = null;
 var appIcon = null;
+app.dock.hide();
 
 function toggle (e) {
   if (e.checked) {
